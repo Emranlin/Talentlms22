@@ -7,8 +7,8 @@ public class Main {
         ArrayList<Integer> number = new ArrayList<Integer>();
         ArrayList<Integer>oddNumber=new ArrayList<Integer>();
         ArrayList<Integer>evenNumber=new ArrayList<Integer>();
-        for (int i = 0; i <20 ; i++) {
-            int array= random.nextInt(10,50);
+        for (int i = 0; i <50 ; i++) {
+            int array= random.nextInt(100);
             number.add(array);
                 if(array%2==0){
                 oddNumber.add(array);
